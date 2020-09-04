@@ -17,7 +17,7 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=cartographer conf
 add-bytopic 에서 teb_planner에서 global, local planner- 각각 path 추가 후 색깔 다르게 해주시고 
 navigation goal을 찍으면 path가 뜹니다. 
 
-rosrun reconfigure reconfigure 로 여러 parameter 바꿔보면서 실행 가능.
+rosrun rqt_reconfigure rqt_reconfigure 로 여러 parameter 바꿔보면서 실행 가능.
 
 
 cartographer teb_local_planner turtlebot3 gazebo simulation
